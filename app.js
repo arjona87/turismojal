@@ -434,20 +434,20 @@ function onEachFeature(feature, layer) {
         this.closeTooltip();
     });
 
-    // Evento de click para mostrar información
-    layer.on('click', function() {
-        // Remover estilo activo del municipio anterior
-        if (currentActiveFeature && currentActiveFeature !== this) {
-            currentActiveFeature.setStyle(STYLES.default);
-        }
-
-        // Establecer nuevo municipio como activo
-        currentActiveFeature = this;
-        this.setStyle(STYLES.active);
-
-        // Mostrar modal con información
-        showPuebloInfo(municipioNombre);
-    });
+    // Evento de click DESACTIVADO - Solo los iconos de pueblos mágicos son clickeables
+    // layer.on('click', function() {
+    //     // Remover estilo activo del municipio anterior
+    //     if (currentActiveFeature && currentActiveFeature !== this) {
+    //         currentActiveFeature.setStyle(STYLES.default);
+    //     }
+    //
+    //     // Establecer nuevo municipio como activo
+    //     currentActiveFeature = this;
+    //     this.setStyle(STYLES.active);
+    //
+    //     // Mostrar modal con información
+    //     showPuebloInfo(municipioNombre);
+    // });
 }
 
 // ============================================
