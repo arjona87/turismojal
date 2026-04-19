@@ -561,7 +561,7 @@ function loadInfografia(nombrePueblo, idioma) {
     const infografiaImg = document.getElementById('infografiaImg');
     const infografiaPlaceholder = document.getElementById('infografiaPlaceholder');
     
-    // Lista de pueblos con infografías disponibles (12 pueblos mágicos)
+    // Lista de pueblos con infografías disponibles (12 pueblos mágicos + 3 municipios regulares)
     const pueblosConInfografias = [
         'Ajijic',
         'Cocula',
@@ -574,7 +574,10 @@ function loadInfografia(nombrePueblo, idioma) {
         'Tapalpa',
         'Temacapulín',
         'Tequila',
-        'Tlaquepaque'
+        'Tlaquepaque',
+        'Guadalajara',
+        'Zapopan',
+        'PuertoVallarta'
     ];
     
     // Intentar cargar la infografía para TODOS los pueblos
