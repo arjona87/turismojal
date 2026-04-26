@@ -100,7 +100,7 @@ body {
 }
 
 .app-header h1 {
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 2px;
     font-weight: 600;
     color: white;
@@ -109,7 +109,7 @@ body {
 }
 
 .subtitle {
-    font-size: 11px;
+    font-size: 15px;
     color: rgba(255, 255, 255, 0.9);
     font-weight: 300;
     margin-bottom: 0;
@@ -130,14 +130,14 @@ body {
     gap: 8px;
     align-items: center;
 }
-
-.lang-btn {
+// Language ***********************************
+.lang-btn {  
     background: rgba(255, 255, 255, 0.9);
     border: 2px solid rgba(255, 255, 255, 0.8);
     padding: 6px 12px;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
     transition: all 0.3s ease;
     display: flex;
     align-items: center;
@@ -263,7 +263,7 @@ body {
 }
 
 .hero-banner__title {
-    font-size: 42px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 12px;
@@ -771,38 +771,79 @@ body {
 
 @media (max-width: 480px) {
     .hero-banner-wrapper {
-        height: 250px;
+        height: 200px;
     }
 
     .hero-banner__title {
-        font-size: 28px;
-        margin-bottom: 12px;
+        font-size: 24px;
+        margin-bottom: 8px;
     }
 
     .hero-banner__subtitle {
-        font-size: 14px;
-        margin-bottom: 20px;
+        font-size: 12px;
+        margin-bottom: 15px;
         max-width: 100%;
     }
 
     .hero-banner__content {
-        padding: 20px;
+        padding: 15px 20px 30px 20px;
     }
 
     .hero-banner__controls {
-        bottom: 20px;
-        right: 20px;
-        gap: 10px;
+        bottom: 15px;
+        right: 15px;
+        gap: 8px;
     }
 
     .hero-banner__nav-button {
-        width: 40px;
-        height: 40px;
-        font-size: 16px;
+        width: 36px;
+        height: 36px;
+        font-size: 14px;
     }
 
     .hero-banner__counter {
+        font-size: 12px;
+        min-width: 45px;
+    }
+
+    .header-top {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .app-header h1 {
         font-size: 14px;
-        min-width: 50px;
+        margin-bottom: 5px;
+    }
+
+    .app-header .subtitle {
+        font-size: 9px;
+    }
+
+    .header-logos {
+        gap: 8px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo-cges,
+    .logo-turismo,
+    .logo-turismo2 {
+        height: 30px;
+    }
+
+    .logo-divider {
+        height: 30px;
+    }
+
+    .header-controls {
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header-controls button {
+        padding: 6px 10px;
+        font-size: 11px;
     }
 }
