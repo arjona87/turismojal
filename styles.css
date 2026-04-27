@@ -202,7 +202,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 15px;
+    gap: 5px;
     padding: 0;
     background: transparent;
     border-top: none;
@@ -216,30 +216,30 @@ body {
 }
 
 .logo-cges {
-    height: 40px;
+    height: 60px;
     width: auto;
     object-fit: contain;
     display: block;
 }
 
 .logo-turismo {
-    height: 40px;
+    height: 60px;
     width: auto;
     object-fit: contain;
     display: block;
 }
 
 .logo-turismo2 {
-    height: 30px;
+    height: 60px;
     width: auto;
     object-fit: contain;
     display: block;
-    max-width: 45px;
+    max-width: 60px;
 }
 
 .logo-divider {
     width: 2px;
-    height: 30px;
+    height: 10px;
     background: #1e3c72;
     opacity: 0.3;
 }

@@ -519,11 +519,13 @@ function showPuebloInfo(nombrePueblo) {
     }
 
     // Agregar seccion de consejos de seguridad
+    // Convertir saltos de línea en <br> para mostrar correctamente
+    const infoSeguidadFormateada = infoSeguridad.replace(/\n/g, '<br>');
     contenido += `
         <div class="info-section">
             <div class="info-label">🛡️ ${labelSeguridad}</div>
             <div class="info-value recomendaciones">
-                <div class="recomendaciones-text">${infoSeguridad}</div>
+                <div class="recomendaciones-text">${infoSeguidadFormateada}</div>
             </div>
         </div>
 
