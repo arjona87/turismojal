@@ -162,32 +162,33 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 13px;
+    font-size: 10px;
     background: rgba(255, 255, 255, 0.9);
-    padding: 8px 12px;
-    border-radius: 4px;
-    width: fit-content;
+    padding: 0px 0px;
+    border-radius: 0px;
+//    width: fit-content;
+    width: 0px;
     color: #1e3c72;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.15);
 }
 
 #status-icon {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 #status-text {
-    font-weight: 500;
+    font-weight: 50;
     color: #1e3c72;
 }
 
 #manual-update {
-    background: #1e3c72;
-    border: 1px solid #1e3c72;
+    background: transparent;
+    border: 1px solid transparent;
     color: white;
-    padding: 4px 8px;
-    border-radius: 3px;
+    padding: 2px 4px;
+    border-radius: 1px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 10px;
     transition: all 0.3s ease;
 }
 
@@ -284,24 +285,24 @@ body {
 
 .hero-banner__cta {
     display: inline-block;
-    padding: 16px 36px;
-    background-color: #ffffff;
-    color: #000;
+    padding: 5px 15px;
+    background-color: transparent;
+    color: white;
     text-decoration: none;
-    font-weight: 700;
-    font-size: 16px;
-    border-radius: 4px;
+    font-weight: 50;
+    font-size: 10px;
+    border-radius: 2px;
     transition: all 0.3s ease;
     cursor: pointer;
     border: none;
     width: fit-content;
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
 }
 
 .hero-banner__cta:hover {
     background-color: #f0f0f0;
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* ============================================
@@ -383,13 +384,13 @@ body {
     }
 
     .header-controls {
-        width: 100%;
+        width: 50%;
         flex-direction: column;
         gap: 10px;
     }
 
     .app-header h1 {
-        font-size: 24px;
+        font-size: 15px;
     }
 
     .header-logos {
@@ -771,11 +772,11 @@ body {
 
 @media (max-width: 480px) {
     .hero-banner-wrapper {
-        height: 200px;
+        height: 250px;
     }
 
     .hero-banner__title {
-        font-size: 24px;
+        font-size: 12px;
         margin-bottom: 8px;
     }
 
@@ -786,7 +787,7 @@ body {
     }
 
     .hero-banner__content {
-        padding: 15px 20px 30px 20px;
+        padding: 15px 10px 10px 10px;
     }
 
     .hero-banner__controls {
@@ -796,23 +797,23 @@ body {
     }
 
     .hero-banner__nav-button {
-        width: 36px;
-        height: 36px;
-        font-size: 14px;
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
     }
 
     .hero-banner__counter {
         font-size: 12px;
-        min-width: 45px;
+        min-width: 12px;
     }
 
     .header-top {
         flex-direction: column;
-        gap: 10px;
+        gap: 5px;
     }
 
     .app-header h1 {
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: 5px;
     }
 
@@ -829,11 +830,11 @@ body {
     .logo-cges,
     .logo-turismo,
     .logo-turismo2 {
-        height: 30px;
+        height: 20px;
     }
 
     .logo-divider {
-        height: 30px;
+        height: 10px;
     }
 
     .header-controls {
@@ -843,7 +844,7 @@ body {
     }
 
     .header-controls button {
-        padding: 6px 10px;
+        padding: 3px 6px;
         font-size: 11px;
     }
 }
